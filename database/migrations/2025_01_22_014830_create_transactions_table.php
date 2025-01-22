@@ -28,6 +28,7 @@ return new class extends Migration
             $table->integer('grandtotal');
             $table->integer('paytotal');
             $table->timestamp('created_at');
+            
         });
     }
 
