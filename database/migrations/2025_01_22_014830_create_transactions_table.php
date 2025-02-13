@@ -21,13 +21,12 @@ return new class extends Migration
             $table->integer('court_id');
             $table->time('starttime');
             $table->time('endtime');
-            $table->integer('duration');
             $table->integer('costume');
             $table->integer('shoes');
             $table->integer('total');
             $table->integer('grandtotal');
             $table->integer('paytotal');
-            $table->timestamp('created_at');
+            // $table->timestamp('created_at');
             
         });
     }
